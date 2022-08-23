@@ -9,7 +9,8 @@
         </div>
         <p>正文内容</p>
       </div>
-      <a>查看更多</a>
+      <a href="#">查看更多 ></a>
     </div>
   </div>
 </template>
+
