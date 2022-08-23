@@ -25,6 +25,9 @@ export default {
 <style >
 .tab {
   padding: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height:22px;
   color: rgba(0, 0, 0, 0.85);
 }
 .activeTab {
