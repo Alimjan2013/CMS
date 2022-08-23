@@ -23,4 +23,11 @@ export default {
   border-bottom: 1px solid #D9D9D9;
   justify-content: center;
 }
+
+@media (max-width: 770px) {
+
+.tabs {
+  border-bottom: 0px solid #D9D9D9;
+}
+}
 </style >

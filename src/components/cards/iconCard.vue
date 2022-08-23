@@ -93,5 +93,15 @@ font-size: 14px;
 line-height: 22px;
 color: #4876FF;
 }
+@media (max-width: 770px) {
+.card{
+  padding:8px;
+  gap:8px;
+}
+.icon{
+  width: 48px;
+  height: 48px;
+}
+}
  
 </style>
