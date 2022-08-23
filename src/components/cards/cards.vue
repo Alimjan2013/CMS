@@ -33,26 +33,24 @@ export default {
   max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 16px;
 }
 @media (max-width: 1200px) {
   .cardGrid{
-  padding:16px;
+  padding: 0 16px;
 }
 }
 @media (max-width: 1000px) {
   .cardGrid{
   display: grid;
   grid-template-columns: 1fr  1fr 1fr;
-
- 
 }
 }
 @media (max-width: 770px) {
   .cardGrid{
   display: grid;
   grid-template-columns: 1fr 1fr ;
-  gap: 10px;
+  gap: 8px;
   padding:8px;
 }
 }
