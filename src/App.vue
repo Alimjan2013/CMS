@@ -30,4 +30,16 @@ export default {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+@media (max-width: 770px) {
+
+.Section {
+ 
+  gap: 0px;
+  background: #F5F7Fa;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+}
 </style>

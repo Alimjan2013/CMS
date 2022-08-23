@@ -1,13 +1,13 @@
 <template>
   <div class="card">
-    <div class="icon64"></div>
+    <img class="icon" src="../../assets/logo.png" alt="">
     <div class="cardBody">
       <div class="content">
         <div class="title">
-          <h5>小标题标题文字</h5>
+          <div class="h5">小标题标题文字小标题标题文字小标题标题文字小标题标题文字小标题标题文字小标题标题文字小标题标题文字小标题标题文字小标题标题文字小标题标题文字小标题标题文字小标题标题文字</div>
           <div class="tag">tag</div>
         </div>
-        <p>正文内容</p>
+        <p>正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容正文内容</p>
       </div>
       <a href="#">查看更多 ></a>
     </div>
@@ -15,6 +15,10 @@
 </template>
 
 <style>
+.icon{
+  width: 60px;
+  height: 60px;
+}
 .card{
   padding:16px;
   background: linear-gradient(141.42deg, #F7F8FF -10.89%, #FFFFFF 75.81%);
@@ -44,11 +48,20 @@ gap: 16px;
   align-items: flex-start;
   gap:8px;
 }
-h5{
+.h5{
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 color: #333333;
+/* max-width: 100%; */
+overflow: hidden;
+text-overflow: ellipsis;
+text-align: left;
+/* white-space: nowrap; */
+-webkit-line-clamp: 2;
+word-break: break-all;
+-webkit-box-orient: vertical;
+display: -webkit-box;
 }
 .tag{
   padding : 0px 8px;
@@ -64,17 +77,20 @@ color: #333333;
   font-size: 14px;
   line-height: 22px;
   color: #999999;
+/* max-width: 100%; */
+overflow: hidden;
+text-overflow: ellipsis;
+text-align: left;
+/* white-space: nowrap; */
+-webkit-line-clamp: 6;
+word-break: break-all;
+-webkit-box-orient: vertical;
+display: -webkit-box;
 }
 .cardBody a {
   font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
-
-
-
-/* primary/1 常规 */
-
 color: #4876FF;
 }
  
